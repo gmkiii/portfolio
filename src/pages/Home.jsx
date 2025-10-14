@@ -2,10 +2,10 @@ export default function Home() {
   return (
     <section className="text-center py-20">
       <h1 className="text-5xl font-bold text-blue-600 mb-4">
-        Salut, je suis <span className="text-gray-900">Ton Nom</span>
+        Salut, je suis <span className="text-gray-900">Baptiste Dewaele</span>
       </h1>
       <p className="text-lg text-gray-600 mb-8">
-        Développeur passionné — bienvenue sur mon portfolio !
+        Bienvenue sur mon portfolio !
       </p>
       <a
         href="/projects"

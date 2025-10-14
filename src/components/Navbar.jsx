@@ -11,6 +11,12 @@ export default function Navbar() {
           <Link to="/" className="hover:text-blue-600">
             Accueil
           </Link>
+          <Link to="/parcours" className="hover:text-blue-600">
+            Parcours
+          </Link>
+          <Link to="/competence" className="hover:text-blue-600">
+            Compétences
+          </Link>
           <Link to="/projects" className="hover:text-blue-600">
             Projets
           </Link>

@@ -3,7 +3,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Competence from "./pages/Competence";
 import Contact from "./pages/Contact";
+import Parcours from "./pages/Parcours";
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/competence" element={<Competence />} />
+            <Route path="/parcours" element={<Parcours/>} />
           </Routes>
         </main>
         <Footer />

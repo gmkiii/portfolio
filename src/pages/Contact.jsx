@@ -7,7 +7,7 @@ export default function Contact() {
         href="mailto:ton.email@example.com"
         className="text-lg bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition"
       >
-        ton.email@example.com
+        baptiste.dewaele3@gmail.com
       </a>
     </section>
   );
