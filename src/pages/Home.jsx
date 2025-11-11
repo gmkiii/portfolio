@@ -43,7 +43,7 @@ export default function Home() {
             <div className="md:w-1/3">
               <div className="relative group">
                 <img
-                  src="/src/assets/profile.jpeg"
+                  src="/images/profile.jpeg"
                   alt="Baptiste Dewaele"
                   className="rounded-2xl shadow-2xl w-full object-cover 
                              transition-transform duration-1000 
@@ -59,29 +59,33 @@ export default function Home() {
                 Etudiant en Informatique
               </h3>
 
-<p className="text-lg text-gray-700 leading-relaxed">
-    Bonjour ! Je m'appelle{" "}
-    <span className="font-semibold text-midas">
-      Baptiste Dewaele
-    </span>
-    , je suis actuellement en deuxiéme année de BUT Informatique à Lens.
-  </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Bonjour ! Je m'appelle{" "}
+                <span className="font-semibold text-midas">
+                  Baptiste Dewaele
+                </span>
+                , je suis actuellement en deuxiéme année de BUT Informatique à
+                Lens.
+              </p>
 
-  <p className="text-lg text-gray-700 leading-relaxed mt-4">
-    L'informatique me passionne depuis mon plus jeune age (l'ordinateur, jeux vidéos, l'hardware)
-    <br />
-    C'est donc tout naturellement que je me suis orienté en Premiére à choisir la filiére 
-    STI2D option SIN (Sciences et Technologies de l'Industrie et du Développement Durable - 
-    Systèmes d'Information et Numérique), qui mélange pratique et théorie.
-    J'ai donc pu écrire mes premiers programmes en C et aussi mes premiers mini-projets.
-  </p>
+              <p className="text-lg text-gray-700 leading-relaxed mt-4">
+                L'informatique me passionne depuis mon plus jeune age
+                (l'ordinateur, jeux vidéos, l'hardware)
+                <br />
+                C'est donc tout naturellement que je me suis orienté en Premiére
+                à choisir la filiére STI2D option SIN (Sciences et Technologies
+                de l'Industrie et du Développement Durable - Systèmes
+                d'Information et Numérique), qui mélange pratique et théorie.
+                J'ai donc pu écrire mes premiers programmes en C et aussi mes
+                premiers mini-projets.
+              </p>
 
-  <p className="text-lg text-gray-700 leading-relaxed mt-4">
-    C'est donc en toute logique que je me suis orienté vers un BUT Informatique 
-    qui mélange aussi bien la théorie que la pratique.
-    Grace à cette formation j'ai pu acquérir des vrais bases solides 
-    tout en continuant de travailler en groupe.
-  </p>
+              <p className="text-lg text-gray-700 leading-relaxed mt-4">
+                C'est donc en toute logique que je me suis orienté vers un BUT
+                Informatique qui mélange aussi bien la théorie que la pratique.
+                Grace à cette formation j'ai pu acquérir des vrais bases solides
+                tout en continuant de travailler en groupe.
+              </p>
             </div>
           </div>
         </div>
