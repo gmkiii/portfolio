@@ -10,6 +10,9 @@ export default {
           light: "#FFE082",
         },
       },
+      boxShadow: {
+          midas: "0 4px 15px 0 rgba(212, 175, 55, 0.5)",
+      },
       animation: {
         "fade-in": "fadeIn 0.8s ease-out",
         "fade-in-delay": "fadeIn 0.8s ease-out 0.3s both",

@@ -24,7 +24,7 @@ export default function Home() {
           </p>
           <a
             href="/projects"
-            className="bg-[#000000] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+            className="bg-[#000000] text-white px-6 py-3 rounded-lg hover:bg-midas transition"
           >
             Voir mes projets
           </a>
@@ -47,7 +47,7 @@ export default function Home() {
                   alt="Baptiste Dewaele"
                   className="rounded-2xl shadow-2xl w-full object-cover 
                              transition-transform duration-1000 
-                             group-hover:scale-105 group-hover:shadow-blue-500/100"
+                             group-hover:scale-105 group-hover:shadow-midas"
                 />
                 <div className=""></div>
               </div>
@@ -56,30 +56,32 @@ export default function Home() {
             {/* Contenu texte */}
             <div className="md:w-2/3 space-y-6">
               <h3 className="text-3xl font-bold text-gray-900">
-                Développeur Web Passionné
+                Etudiant en Informatique
               </h3>
 
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Bonjour ! Je suis{" "}
-                <span className="font-semibold text-blue-600">
-                  Baptiste Dewaele
-                </span>
-                , un développeur web passionné par la création d'expériences
-                numériques modernes et intuitives.
-              </p>
+<p className="text-lg text-gray-700 leading-relaxed">
+    Bonjour ! Je m'appelle{" "}
+    <span className="font-semibold text-midas">
+      Baptiste Dewaele
+    </span>
+    , je suis actuellement en deuxiéme année de BUT Informatique à Lens.
+  </p>
 
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Spécialisé en <span className="font-semibold">React</span>,
-                <span className="font-semibold"> JavaScript</span> et
-                <span className="font-semibold"> Tailwind CSS</span>, j'aime
-                transformer des idées créatives en applications web performantes
-                et élégantes.
-              </p>
+  <p className="text-lg text-gray-700 leading-relaxed mt-4">
+    L'informatique me passionne depuis mon plus jeune age (l'ordinateur, jeux vidéos, l'hardware)
+    <br />
+    C'est donc tout naturellement que je me suis orienté en Premiére à choisir la filiére 
+    STI2D option SIN (Sciences et Technologies de l'Industrie et du Développement Durable - 
+    Systèmes d'Information et Numérique), qui mélange pratique et théorie.
+    J'ai donc pu écrire mes premiers programmes en C et aussi mes premiers mini-projets.
+  </p>
 
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Actuellement, je me concentre sur le développement front-end et
-                l'amélioration continue de mes compétences en design UI/UX.
-              </p>
+  <p className="text-lg text-gray-700 leading-relaxed mt-4">
+    C'est donc en toute logique que je me suis orienté vers un BUT Informatique 
+    qui mélange aussi bien la théorie que la pratique.
+    Grace à cette formation j'ai pu acquérir des vrais bases solides 
+    tout en continuant de travailler en groupe.
+  </p>
             </div>
           </div>
         </div>
