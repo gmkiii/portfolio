@@ -9,7 +9,7 @@ export default function Parcours() {
       <div className="flex flex-col gap-8">
         <div className=" group flex flex-col md:flex-row  items-center  rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-midas">
           <img
-            src="/src/assets/iut_de_lens_cover.jpg"
+            src="/images/iut_de_lens_cover.jpg"
             alt="Image formation 1"
             className="md:w-1/2 h-80 w-full object-cover"
           />
@@ -30,7 +30,7 @@ export default function Parcours() {
         {/* ---- Carte 2 ---- */}
         <div className=" group flex flex-col md:flex-row  items-center  rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-midas">
           <img
-            src="/src/assets/baud.jpeg"
+            src="/images/baud.jpeg"
             alt="Image formation 2"
             className="md:w-1/2 h-80 w-full object-cover"
           />
