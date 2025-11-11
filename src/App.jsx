@@ -10,15 +10,15 @@ import Parcours from "./pages/Parcours";
 export default function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen bg-gray-50 text-gray-800">
+      <div className="flex flex-col min-h-screen text-gray-800">
         <Navbar />
-        <main className="flex-grow p-6">
+        <main className="flex-grow p-6 bg-white">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/competence" element={<Competence />} />
-            <Route path="/parcours" element={<Parcours/>} />
+            <Route path="/parcours" element={<Parcours />} />
           </Routes>
         </main>
         <Footer />
