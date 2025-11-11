@@ -9,7 +9,7 @@ import Parcours from "./pages/Parcours";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="flex flex-col min-h-screen text-gray-800">
         <Navbar />
         <main className="flex-grow p-6 bg-white">

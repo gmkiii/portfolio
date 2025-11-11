@@ -43,7 +43,7 @@ export default function Home() {
             <div className="md:w-1/3">
               <div className="relative group">
                 <img
-                  src="/images/profile.jpeg"
+                  src="images/profile.jpeg"
                   alt="Baptiste Dewaele"
                   className="rounded-2xl shadow-2xl w-full object-cover 
                              transition-transform duration-1000 
