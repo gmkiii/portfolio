@@ -8,7 +8,7 @@ export default function Competence() {
 
         <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
           <div className="flex flex-col items-center w-36 border-2 border-midas rounded-lg p-4">
-            <img src="/images/html.png" className="w-16 h-16 mb-3" />
+            <img src="/images/Html.png" className="w-16 h-16 mb-3" />
             <span className="text-base font-medium">HTML</span>
           </div>
 
@@ -58,17 +58,17 @@ export default function Competence() {
           </div>
 
           <div className="flex flex-col items-center w-36 border-2 border-midas rounded-lg p-4">
-            <img src="/images/nodejs.png" className="w-16 h-16 mb-3" />
+            <img src="images/nodejs.png" className="w-16 h-16 mb-3" />
             <span className="text-base font-medium">Node.js</span>
           </div>
 
           <div className="flex flex-col items-center w-36 border-2 border-midas rounded-lg p-4">
-            <img src="/images/eclipse.png" className="w-16 h-16 mb-3" />
+            <img src="images/eclipse.png" className="w-16 h-16 mb-3" />
             <span className="text-base font-medium">Eclipse</span>
           </div>
 
           <div className="flex flex-col items-center w-36 border-2 border-midas rounded-lg p-4">
-            <img src="/images/idea.png" className="w-16 h-16 mb-3" />
+            <img src="images/idea.png" className="w-16 h-16 mb-3" />
             <span className="text-base font-medium">IntelliJ</span>
           </div>
 
