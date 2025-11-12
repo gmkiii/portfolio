@@ -10,7 +10,6 @@ export default function Parcours() {
         <div className=" group flex flex-col md:flex-row  items-center  rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-midas">
           <img
             src="images/iut_de_lens_cover.jpg"
-            alt="Image formation 1"
             className="md:w-1/2 h-80 w-full object-cover"
           />
           <div className="p-6 text-left flex flex-col justify-between">
@@ -27,11 +26,9 @@ export default function Parcours() {
           </div>
         </div>
 
-        {/* ---- Carte 2 ---- */}
         <div className=" group flex flex-col md:flex-row  items-center  rounded-2xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-midas">
           <img
             src="images/baud.jpeg"
-            alt="Image formation 2"
             className="md:w-1/2 h-80 w-full object-cover"
           />
           <div className="p-6 text-left flex flex-col justify-between">

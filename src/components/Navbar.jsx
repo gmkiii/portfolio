@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+    <nav className="bg-white shadow-md top-0 z-50">
+      <div className="max-w-4xl mx-auto px-4 py-6 flex justify-between items-center">
         <Link to="/" className="text-xl font-bold text-midas">
-          MonPortfolio
+          Portfolio
         </Link>
         <div className="space-x-6">
           <Link to="/" className="hover:text-midas  font-bold">

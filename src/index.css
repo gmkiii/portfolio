@@ -19,7 +19,6 @@ body {
   position: relative;
 }
 
-/* petite surbrillance diagonale */
 .midas-text::after {
   content: "";
   position: absolute;

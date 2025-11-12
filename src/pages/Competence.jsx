@@ -58,11 +58,6 @@ export default function Competence() {
           </div>
 
           <div className="flex flex-col items-center w-36 border-2 border-midas rounded-lg p-4">
-            <img src="images/nodejs.png" className="w-16 h-16 mb-3" />
-            <span className="text-base font-medium">Node.js</span>
-          </div>
-
-          <div className="flex flex-col items-center w-36 border-2 border-midas rounded-lg p-4">
             <img src="images/eclipse.png" className="w-16 h-16 mb-3" />
             <span className="text-base font-medium">Eclipse</span>
           </div>
