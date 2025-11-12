@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-300 text-center py-4">
-      © {new Date().getFullYear()} Dewaele Baptiste — Tous droits réservés.
+    <footer className="bg-black text-white text-center py-4">
+      © 2025 Dewaele Baptiste — Tous droits réservés.
     </footer>
   );
 }

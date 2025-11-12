@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Particles from "../components/Particles";
 export default function Home() {
   return (
@@ -12,26 +13,23 @@ export default function Home() {
           />
         </div>
         <div className="relative z-10">
-          <h1 className="text-7xl font-bold text-[#000000] mb-4 animate-fade-in">
+          <h1 className="text-7xl font-bold text-black mb-4 animate-fade-in-delay">
             Bonjour, je suis{" "}
             <span className="text-7xl font-bold midas-text">
-              {" "}
               Baptiste Dewaele
             </span>
           </h1>
-          <p className="text-4xl text-[#000000] mb-8 animate-fade-in-delay">
+          <p className="text-4xl text-black mb-8 animate-fade-in-delay">
             Bienvenue sur mon portfolio !
           </p>
-          <a
-            href="/projects"
-            className="bg-[#000000] text-white px-6 py-3 rounded-lg hover:bg-midas transition"
-          >
-            Voir mes projets
-          </a>
+          <Link
+            to="/projects"
+            className="bg-black text-white px-6 py-3 rounded-lg hover:bg-midas animate-fade-in-delay">
+                Voir mes projets  
+          </Link>
         </div>
       </section>
       <section
-        id="about"
         className="py-20 bg-gray-50 flex flex-col justify-center items-center text-center min-h-screen bg-white"
       >
         <div className="container mx-auto px-6 max-w-6xl">
@@ -44,7 +42,6 @@ export default function Home() {
               <div className="relative group">
                 <img
                   src="images/profile.jpeg"
-                  alt="Baptiste Dewaele"
                   className="rounded-2xl shadow-2xl w-full object-cover 
                              transition-transform duration-1000 
                              group-hover:scale-105 group-hover:shadow-midas"
@@ -53,13 +50,12 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Contenu texte */}
             <div className="md:w-2/3 space-y-6">
               <h3 className="text-3xl font-bold text-gray-900">
                 Etudiant en Informatique
               </h3>
 
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 ">
                 Bonjour ! Je m'appelle{" "}
                 <span className="font-semibold text-midas">
                   Baptiste Dewaele
@@ -68,7 +64,7 @@ export default function Home() {
                 Lens.
               </p>
 
-              <p className="text-lg text-gray-700 leading-relaxed mt-4">
+              <p className="text-lg text-gray-700 mt-4">
                 L'informatique me passionne depuis mon plus jeune age
                 (l'ordinateur, jeux vidéos, l'hardware)
                 <br />
@@ -80,7 +76,7 @@ export default function Home() {
                 premiers mini-projets.
               </p>
 
-              <p className="text-lg text-gray-700 leading-relaxed mt-4">
+              <p className="text-lg text-gray-700 mt-4">
                 C'est donc en toute logique que je me suis orienté vers un BUT
                 Informatique qui mélange aussi bien la théorie que la pratique.
                 Grace à cette formation j'ai pu acquérir des vrais bases solides
