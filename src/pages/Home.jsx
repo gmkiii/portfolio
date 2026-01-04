@@ -24,14 +24,13 @@ export default function Home() {
           </p>
           <Link
             to="/projects"
-            className="bg-black text-white px-6 py-3 rounded-lg hover:bg-midas animate-fade-in-delay">
-                Voir mes projets  
+            className="bg-black text-white px-6 py-3 rounded-lg hover:bg-midas animate-fade-in-delay"
+          >
+            Voir mes projets
           </Link>
         </div>
       </section>
-      <section
-        className="py-20 bg-gray-50 flex flex-col justify-center items-center text-center min-h-screen bg-white"
-      >
+      <section className="py-20 bg-gray-50 flex flex-col justify-center items-center text-center min-h-screen bg-white">
         <div className="container mx-auto px-6 max-w-6xl">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16 animate-fade-in">
             À propos de <span className="font-bold midas-text">Moi</span>
@@ -84,6 +83,16 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="pt-6">
+          <a
+            href="/cv/CV_Baptiste_Dewaele.pdf"
+            download
+            className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg
+               hover:bg-midas transition-all duration-300 shadow-lg"
+          >
+            Télécharger mon CV
+          </a>
         </div>
       </section>
     </>

@@ -56,6 +56,19 @@ export default function Projects() {
               </p>
             </div>
           </div>
+
+          <div className="relative w-72 border-2 border-midas rounded-lg p-6 text-white overflow-hidden bg-black">
+            <img
+              src="images/Logo_Vertical.svg"
+              className="absolute inset-0 w-full h-full object-cover opacity-70"
+            />
+            <div className="relative z-10">
+              <h3 className="text-xl font-bold mb-2">Marathon Web</h3>
+              <p className="text-sm">
+                Création d'un site web pour un marathon en équipe en 48H
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
