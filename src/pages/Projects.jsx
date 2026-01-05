@@ -13,7 +13,16 @@ export default function Projects() {
               className="absolute inset-0 w-full h-full object-cover opacity-50"
             />
             <div className="relative z-10">
-              <h3 className="text-xl font-bold mb-2">Bomberman</h3>
+              <h3 className="text-xl font-bold mb-2">
+                <a
+                  href="https://github.com/gmkiii/bomberman.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-midas transition-colors duration-300"
+                >
+                  Bomberman
+                </a>
+              </h3>
               <p className="text-sm">
                 Création d'un Bomberman en Java, JavaFx.
               </p>
@@ -26,7 +35,17 @@ export default function Projects() {
               className="absolute inset-0 w-full h-full object-cover opacity-70"
             />
             <div className="relative z-10">
-              <h3 className="text-xl font-bold mb-2">Portfolio</h3>
+              <h3 className="text-xl font-bold mb-2">
+                {" "}
+                <a
+                  href="https://github.com/gmkiii/portfolio.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-midas transition-colors duration-300"
+                >
+                  Portfolio
+                </a>
+              </h3>
               <p className="text-sm">Site personnel en React + Tailwind.</p>
             </div>
           </div>
@@ -50,7 +69,17 @@ export default function Projects() {
               className="absolute inset-0 w-full h-full object-cover opacity-50"
             />
             <div className="relative z-10">
-              <h3 className="text-xl font-bold mb-2">Pacman</h3>
+              <h3 className="text-xl font-bold mb-2">
+                {" "}
+                <a
+                  href="https://github.com/gmkiii/pacman.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-midas transition-colors duration-300"
+                >
+                  Pacman
+                </a>
+              </h3>
               <p className="text-sm">
                 Création d'un jeu Pacman en Java, JavaFx.
               </p>
@@ -63,7 +92,17 @@ export default function Projects() {
               className="absolute inset-0 w-full h-full object-cover opacity-70"
             />
             <div className="relative z-10">
-              <h3 className="text-xl font-bold mb-2">Marathon Web</h3>
+              <h3 className="text-xl font-bold mb-2">
+                {" "}
+                <a
+                  href="https://github.com/gmkiii/VsPunk.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-midas transition-colors duration-300"
+                >
+                  Marathon Web
+                </a>
+              </h3>
               <p className="text-sm">
                 Création d'un site web pour un marathon en équipe en 48H
               </p>
