@@ -84,16 +84,26 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="pt-6">
-          <a
-            href="/cv/CV_Baptiste_Dewaele.pdf"
-            download
-            className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg
+<div className="pt-6 flex gap-4">
+  <a
+    href="/cv/CV_Baptiste_Dewaele.pdf"
+    download
+    className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg
                hover:bg-midas transition-all duration-300 shadow-lg"
-          >
-            Télécharger mon CV
-          </a>
-        </div>
+  >
+    Télécharger mon CV
+  </a>
+
+  <a
+    href="/cv/CV_Baptiste_Dewaele_EN.pdf"
+    download
+    className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-lg 
+               hover:bg-midas transition-all duration-300 shadow-lg"
+  >
+    Download my CV
+  </a>
+</div>
+
       </section>
     </>
   );
