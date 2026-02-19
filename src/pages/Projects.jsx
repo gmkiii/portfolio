@@ -52,13 +52,16 @@ export default function Projects() {
 
           <div className="relative w-72 border-2 border-midas rounded-lg p-6 text-white overflow-hidden bg-black">
             <img
-              src="images/quizz.png"
+              src="images/tkkkt.png"
               className="absolute inset-0 w-full h-full object-cover opacity-70"
             />
             <div className="relative z-10">
-              <h3 className="text-xl font-bold mb-2">Projet Quizz web</h3>
+              <h3 className="text-xl font-bold mb-2">
+                Projet site web data scouting pour le football{" "}
+              </h3>
               <p className="text-sm">
-                Création d'un quizz web en JavaScript, HTML et CSS.
+                Création d'un site web de data scouting pour le football grace à
+                PostgreSQL.
               </p>
             </div>
           </div>
@@ -89,7 +92,7 @@ export default function Projects() {
           <div className="relative w-72 border-2 border-midas rounded-lg p-6 text-white overflow-hidden bg-black">
             <img
               src="images/Logo_Vertical.svg"
-              className="absolute inset-0 w-full h-full object-cover opacity-70"
+              className="absolute inset-0 w-full h-full object-cover opacity-50"
             />
             <div className="relative z-10">
               <h3 className="text-xl font-bold mb-2">
@@ -105,6 +108,20 @@ export default function Projects() {
               </h3>
               <p className="text-sm">
                 Création d'un site web pour un marathon en équipe en 48H
+              </p>
+            </div>
+          </div>
+
+          <div className="relative w-72 border-2 border-midas rounded-lg p-6 text-white overflow-hidden bg-black">
+            <img
+              src="images/JAM.png"
+              className="absolute inset-0 w-full h-full object-cover opacity-30"
+            />
+            <div className="relative z-10">
+              <h3 className="text-xl font-bold mb-2"> CodeGamJam 2026</h3>
+              <p className="text-sm">
+                Participation à la CodeGamJam 2026 , création d'un jeu vidéo de
+                A à Z en moins de 30H.
               </p>
             </div>
           </div>
